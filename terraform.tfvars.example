@@ -1,0 +1,5 @@
+subscription_id = "00000000-0000-0000-0000-000000000000"
+resource_group_name = "<RESOURCE_GROUP_ATTRIBUE>"
+user_id = "<NOM_NUMERO>"
+environment = "dev"
+public_key = file(pathexpand("~/<PATH_TO_PUBLIC_KEY>"))

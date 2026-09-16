@@ -1,0 +1,16 @@
+# Exclure le fichier d'état local de Terraform
+*.tfstate
+*.tfstate.backup
+
+# Exclure le dossier de configuration locale (.terraform)
+.terraform/
+
+# Exclure les fichiers de variables contenant des secrets potentiels
+*.tfvars
+*.tfvars.json
+!terraform.tfvars.example
+
+crash.log
+
+*.pem
+*.key
